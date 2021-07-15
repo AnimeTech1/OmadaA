@@ -1,3 +1,7 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, function (sprite, location) {
+    game.showLongText("Καταφέρατε να χακάρετε τον server του αντίπαλου hacker HACKING COMPLETE", DialogLayout.Full)
+    game.over(true, effects.confetti)
+})
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -141,3 +145,4 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 tiles.placeOnTile(mySprite, tiles.getTileLocation(0, 0))
 controller.moveSprite(mySprite)
+scene.cameraFollowSprite(mySprite)
