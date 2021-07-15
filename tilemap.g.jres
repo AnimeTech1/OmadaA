@@ -1,0 +1,36 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile1": {
+        "data": "hwQQABAAAAD/////////////iIiIiP///4+IiIiI+P//iP////+I//+I/////4j//4j/////iP//j4iIiIj4////iIiIiP///////////////4j///+I//+P/////4j//4iIiIiIiP//iIiIiIiI/////////4j/////////iP///////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile"
+    },
+    "tile2": {
+        "data": "hwQQABAAAAD/////////////d3d3d////393d3d39///d/////93//93/////3f//3f/////d///f3d3d3f3////d3d3d/////////////////f///93//9//////3f//3d3d3d3d///d3d3d3d3/////////3f/////////d////////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile0"
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDEwMTAxMDEwMjAxMDIwMjAyMDIwMjAyMDEwMTAxMDIwMjAyMDEwMTAyMDEwMjAxMDEwMTAxMDIwMTAxMDEwMTAxMDIwMTAxMDIwMTAyMDEwMTAxMDEwMjAxMDEwMTAxMDEwMjAxMDEwMjAxMDIwMjAyMDIwMTAyMDEwMTAxMDEwMTAyMDEwMTAyMDEwMTAxMDEwMjAxMDIwMTAxMDEwMTAyMDIwMTAyMDIwMjAyMDEwMTAyMDEwMjAyMDIwMTAxMDIwMTAxMDIwMTAxMDIwMTAxMDIwMTAxMDEwMjAxMDEwMjAxMDEwMjAxMDEwMjAxMDEwMjAxMDEwMTAyMDEwMjAyMDEwMTAyMDEwMTAyMDEwMTAyMDIwMjAyMDIwMjAxMDIwMTAxMDIwMTAxMDIwMTAxMDIwMTAxMDEwMjAxMDEwMjAyMDIwMjAxMDEwMjAxMDEwMjAxMDEwMTAyMDEwMTAxMDIwMTAxMDEwMTAyMDEwMTAyMDEwMTAxMDIwMTAxMDEwMjAxMDEwMTAxMDIwMTAxMDIwMTAxMDEwMjAxMDEwMTAyMDEwMTAxMDEwMjAyMDIwMjAxMDEwMTAyMDEwMjAyMDIwMTAxMDEwMTAyMDEwMTAxMDEwMTAxMDIwMTAyMDEwMTAxMDEwMTAxMDIwMTAxMDEwMTAxMDEwMzAxMjAyMjAyMDIwMDAwMjAyMjAwMjAwMjAyMjIyMjIwMjIyMjIwMDIwMjIyMjIyMDIyMjIyMDAyMDIwMDIwMjAyMjIyMjAwMjIyMjIyMDIwMjIwMjIwMDAwMDIyMjAwMDIwMDIyMjIwMDIyMjIwMjIyMDAyMjIyMDAyMjIyMDIyMjAwMDIyMjAwMjIyMDAwMDAwMDIyMjIwMDIyMjIwMjIyMDAyMDAyMDAyMjIyMDIyMjAyMjIwMjIwMjIyMjAyMjIwMjIyMDIyMDIyMjIwMjIyMDIyMjAyMjAyMDAyMDIyMjAwMDIwMjIwMjIyMjIyMjIwMjAyMjIyMDIyMjIyMjIyMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile1",
+            "myTiles.tile2",
+            "sprites.dungeon.collectibleInsignia"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
