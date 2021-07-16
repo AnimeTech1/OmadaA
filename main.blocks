@@ -136,4 +136,72 @@ e 4 f 7 7 7 7 7 7 f 4 e .
 e e f 6 6 6 6 6 6 f e e . 
 . . . f f f f f f . . . . 
 . . . f f . . f f . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"PdU/9T:8YtHdOIQ3sOb1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Q;4wG@Oo1)U|7hxp1WFA"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile" id="t~ay_K;c_:9BZysn,?r7"><value name="sprite"><block type="variables_get" id="y7A{r)5z,XQJ2/JQ~_2t"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="loc"><shadow type="mapgettile" id="[-i6g]aSi3}oO4;pji})"><value name="col"><shadow type="math_number" id="lVXX?}/!EG,%tFE]R~]-"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="r+GjmsV?5xF[GBgaEK,6"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="game_control_sprite" id="6F`5?V%[tO57$r!A`Y@o"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="UkO#KMhV}[SMMT/Le-p$"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><next><block type="camerafollow" id="]K@u410$=@$+Y$Oa~Z]o"><value name="sprite"><block type="variables_get" id="IucZRl07HyWc%Xq4TG(Z"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="e~Q3qNe6N-dzw/xm@049" x="10" y="430"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="LBffYh)hK/~ItxdoLBdj"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="]t)}L_x]lQ+q?FMVX~a!"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="m,pPlU;a^tzk6N]Y/aU4"><field name="tile">sprites.dungeon.collectibleInsignia</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="nG]!l0o4b,w-bAB^L2Dl"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="game_show_long_text" id="oAq*{)fb@99Pa)wv!]V9"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="zYj.Dnq8l?8PPwraM/M~"><field name="TEXT">Καταφέρατε να χακάρετε τον server του αντίπαλου hacker HACKING COMPLETE</field></shadow></value><next><block type="gameOver" id="7,53:|5(oWDU|5W*Y3K^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="win"><shadow type="toggleWinLose" id="}Z.2]NanOHWe~6#18|z}"><field name="win">true</field></shadow></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"PdU/9T:8YtHdOIQ3sOb1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Q;4wG@Oo1)U|7hxp1WFA"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile" id="t~ay_K;c_:9BZysn,?r7"><value name="sprite"><block type="variables_get" id="y7A{r)5z,XQJ2/JQ~_2t"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="loc"><shadow type="mapgettile" id="[-i6g]aSi3}oO4;pji})"><value name="col"><shadow type="math_number" id="lVXX?}/!EG,%tFE]R~]-"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="r+GjmsV?5xF[GBgaEK,6"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="game_control_sprite" id="6F`5?V%[tO57$r!A`Y@o"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="UkO#KMhV}[SMMT/Le-p$"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><next><block type="camerafollow" id="]K@u410$=@$+Y$Oa~Z]o"><value name="sprite"><block type="variables_get" id="IucZRl07HyWc%Xq4TG(Z"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><next><block type="playMelody" id="i;OzW8`7}}ncu%zK0EDl"><value name="melody"><shadow type="melody_editor" id="jm}n{XbOQA]wSM{~yX8:"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="s/tW{_gIHIv3;uGYO$:1"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="e~Q3qNe6N-dzw/xm@049" x="-10" y="430"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="LBffYh)hK/~ItxdoLBdj"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="]t)}L_x]lQ+q?FMVX~a!"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="m,pPlU;a^tzk6N]Y/aU4"><field name="tile">sprites.dungeon.collectibleInsignia</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="nG]!l0o4b,w-bAB^L2Dl"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="game_show_long_text" id="oAq*{)fb@99Pa)wv!]V9"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="zYj.Dnq8l?8PPwraM/M~"><field name="TEXT">Καταφέρατε να χακάρετε τον server του αντίπαλου hacker HACKING COMPLETE</field></shadow></value><next><block type="gameOver" id="7,53:|5(oWDU|5W*Y3K^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="win"><shadow type="toggleWinLose" id="}Z.2]NanOHWe~6#18|z}"><field name="win">true</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="dDgk12=I[/]%Td)2JQ;n" x="-10" y="690"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="f,M@BZ=!K[HBhlWL`Ck]"><value name="sprite"><block type="variables_get" id="Fg|mj@y@M?Pm*{6]N/kX"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="@r:l4HIrZIp1d5)963p0"><field name="img">img`
+. . . . f f f f . . . . . 
+. . f f c c c c f f . . . 
+. f f c c c c c c f f . . 
+f f c c c c c c c c f f . 
+f f c c f c c c c c c f . 
+f f f f f c c c f c c f . 
+f f f f c c c f c c f f . 
+f f f f f f f f f f f f . 
+f f f f f f f f f f f f . 
+. f f f f f f f f f f . . 
+. f f f f f f f f f f . . 
+f e f f f f f f f f e f . 
+e 4 f 7 7 7 7 7 7 c 4 e . 
+e e f 6 6 6 6 6 6 f e e . 
+. . . f f f f f f . . . . 
+. . . f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"@r:l4HIrZIp1d5)963p0"}}</data></shadow></value></block></statement></block><block type="keyonevent" id="W4fBPVI1y?dK.|CR}b/n" x="390" y="670"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="$A/*beQR;cLlTZsk/@ZA"><value name="sprite"><block type="variables_get" id="MF32u+DdgJ$hAwrAHD(4"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="Z9#6ev@H-(D%zVo55OQg"><field name="img">img`
+. . . . . f f f f f . . . 
+. . . f f f f f f f f f . 
+. . f f f c f f f f f f . 
+. . f f c f f f c f f f f 
+f f c c f f f c c f f c f 
+f f f f f e f f f f c c f 
+. f f f e e f f f f f f f 
+. . f f e e f b f e e f f 
+. . . f 4 4 f 1 e 4 e f . 
+. . . f f f f f f f f f . 
+. . . f f f f f f f f . . 
+. . . f 7 7 7 e 4 4 e . . 
+. . . f 7 7 7 e 4 4 e . . 
+. . . f 6 6 6 f e e f . . 
+. . . . f f f f f f . . . 
+. . . . . . f f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z9#6ev@H-(D%zVo55OQg"}}</data></shadow></value></block></statement></block><block type="keyonevent" id="JxCH{hNetxH$(#q0|)(x" x="-10" y="850"><field name="button">controller.down</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="IA.66[n_xPT(zpfVg%*{"><value name="sprite"><block type="variables_get" id="Phe6SUMu+qE|/6t%[7-G"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="Ia0e?GUgIo$Zoes.4ll="><field name="img">img`
+. . . . f f f f . . . . . 
+. . f f f f f f f f . . . 
+. f f f f f f c f f f . . 
+f f f f f f c c f f f c . 
+f f f c f f f f f f f c . 
+c c c f f f e e f f c c . 
+f f f f f e e f f c c f . 
+f f f b f e e f b f f f . 
+. f 4 1 f 4 4 f 1 4 f . . 
+. f f f f f f f f f f . . 
+. f f f f f f f f f f . . 
+f e f b 7 7 7 7 b f e f . 
+e 4 f 7 7 7 7 7 7 f 4 e . 
+e e f 6 6 6 6 6 6 f e e . 
+. . . f f f f f f . . . . 
+. . . f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Ia0e?GUgIo$Zoes.4ll="}}</data></shadow></value></block></statement></block><block type="keyonevent" id="MB/y~Vvf!Wr/X$4.}(|/" x="390" y="830"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="LE`)=mr+VXIde),a8zVr"><value name="sprite"><block type="variables_get" id="*DH07?~.]5ruO5D(!?so"><field name="VAR" id="GwB+Jp(cT#$`s9vfej*V">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="RY]`=mYJ7)yOKPZ-KwU0"><field name="img">img`
+. . . f f f f f . . . . . 
+. f f f f f f f f f . . . 
+. f f f f f f c f f f . . 
+f f f f c f f f c f f . . 
+f c f f c c f f f c c f f 
+f c c f f f f e f f f f f 
+f f f f f f f e e f f f . 
+f f e e f b f e e f f . . 
+. f e 4 e 1 f 4 4 f . . . 
+. f f f f f f f f f . . . 
+. . f f f f f f f f . . . 
+. . e 4 4 e 7 7 7 f . . . 
+. . e 4 4 e 7 7 7 f . . . 
+. . f e e f 6 6 6 f . . . 
+. . . f f f f f f . . . . 
+. . . . f f f . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"RY]`=mYJ7)yOKPZ-KwU0"}}</data></shadow></value></block></statement></block></xml>
